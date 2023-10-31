@@ -48,7 +48,7 @@ while option != '':
                 else:
                     url = "https://api.fastforex.io/convert?" \
                     "from=" + currencyFrom + "&to=" + currencyTo + "&amount={}" \
-                    "&api_key=e5d588d556-c9b2486479-s3cl7c".format(amount)
+                    "&api_key=".format(amount)
                     response = requests.get(url, headers=headers)
                     json_response = json.loads(response.text)
                     
