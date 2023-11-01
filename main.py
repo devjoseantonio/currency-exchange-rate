@@ -6,6 +6,7 @@ currenys = ["EUR", "USD", "COP"]
 option1 = 0
 option2 = 0
 headers = {"accept": "application/json"}
+url = ""
 
 def printOptions ():
     i = 0
