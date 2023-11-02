@@ -44,6 +44,7 @@ while option1 != '':
                     response = json_response.get("result")
                     
                     print(str(amount) + " " + currenys[option1] + " in " + currenys[option2] + " are " + str(response.get(currenys[option2])))
+                    input("Press enter to continue...")
                 else:
                     error = True
             else:
